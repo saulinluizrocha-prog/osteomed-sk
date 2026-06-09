@@ -17,7 +17,7 @@ try{
         'city'			=> $_POST['city'] ?? null,
         'count'			=> $_POST['count'] ?? null,
         'offer_id'		=> '12519',
-        'stream_id'		=> 'vebf',
+        'stream_id'		=> '',
         'country' 		=> 'SK',
         'tz' 			=> '',
         'address' 		=> $_POST['address'] ?? null,
