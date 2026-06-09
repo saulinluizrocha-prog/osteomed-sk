@@ -16,9 +16,9 @@ try{
         'region'        => $_POST['region'] ?? null,
         'city'			=> $_POST['city'] ?? null,
         'count'			=> $_POST['count'] ?? null,
-        'offer_id'		=> '404237',
+        'offer_id'		=> '12519',
         'stream_id'		=> 'vebf',
-        'country' 		=> 'LT',
+        'country' 		=> 'SK',
         'tz' 			=> '',
         'address' 		=> $_POST['address'] ?? null,
         'email' 		=> $_POST['email'] ?? null,
@@ -40,19 +40,19 @@ try{
     ));
 
     if( $lead ){
-        header('Location: /success.html?id='.$lead->id);
+        header('Location: success.html?id='.$lead->id);
     }
 
 }catch (Exception $e) {
     //error handler
-    echo "Klaida: " . $e->getMessage();
+    echo $e->getMessage();
 }
 
 class CApiConnector
 {
     public $config = array(
         'api_key' => 'c66289394c2a6e8515c8e8b382fba719',
-        'offer_id' => '404237',
+        'offer_id' => '12519',
         'user_id' => '75329',
         'api_domain' => 'https://t-api.org',
     );
