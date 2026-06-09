@@ -52,7 +52,7 @@ class CApiConnector
 {
     public $config = array(
         'api_key' => 'c66289394c2a6e8515c8e8b382fba719',
-        'offer_id' => '11145',
+        'offer_id' => '404237',
         'user_id' => '75329',
         'api_domain' => 'https://t-api.org',
     );
